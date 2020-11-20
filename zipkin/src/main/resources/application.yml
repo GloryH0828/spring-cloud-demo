@@ -1,0 +1,12 @@
+server:
+  port: 9090
+management:
+  metrics:
+    web:
+      server:
+        request:
+          autotime:
+            enabled: false
+spring:
+  main:
+    allow-bean-definition-overriding: true
